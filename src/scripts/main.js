@@ -31,7 +31,7 @@ function createTree(element, data) {
 
 function createTreeDom(data) {
   if (!Object.keys(data).length) {
-    return;
+    return null;
   }
 
   const ul = document.createElement('ul');
